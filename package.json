@@ -1,0 +1,25 @@
+{
+  "name": "ygoblog",
+  "version": "1.0.0",
+  "description": "A blog for Yu-G-Oh",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorgodoka/ygoblog.git"
+  },
+  "keywords": [
+    "ygo",
+    "yugioh",
+    "card",
+    "game"
+  ],
+  "author": "Victor Godoka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorgodoka/ygoblog/issues"
+  },
+  "homepage": "https://github.com/victorgodoka/ygoblog#readme"
+}
