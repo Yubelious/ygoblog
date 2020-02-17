@@ -1,0 +1,22 @@
+{
+  "pt-br": {
+    "home": "Início",
+    "deck": "Editor de Decks",
+    "title": "Entrar",
+    "rememberme": "Lembrar conta",
+    "staylogged": "Continuar logado",
+    "createacc": "Não possui login? Crie uma conta!",
+    "cantlog": "Esqueceu a senha?",
+    "login": "Entrar"
+  },
+  "en-us": {
+    "home": "Home",
+    "deck": "Deck Editor",
+    "title": "Account Login",
+    "rememberme": "Remember me on this device",
+    "staylogged": "Stay logged-in",
+    "createacc": "Create an account",
+    "cantlog": "Can't login?",
+    "login": "Login"
+  }
+}

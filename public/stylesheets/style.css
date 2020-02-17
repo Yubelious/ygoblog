@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed&display=swap');
+@import './reset.css';
+@import './nav.css';
+
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background: url(../images/home-bg.png) top right no-repeat fixed #360F53;
+  background-size: cover;
+}
+
+.title {
+  color: #f2f2f2;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+  margin: 30px 0;
+  text-transform: uppercase;
+}

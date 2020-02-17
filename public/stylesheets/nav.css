@@ -1,0 +1,105 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 100vh;
+  overflow: auto;
+  background-color: #111623;
+}
+
+.nav__login {
+  padding: 20px;
+  width: 100%;
+}
+
+.nav__login__input {
+  background-color: #252C37;
+  padding: 10px 15px;
+  border: 1px solid #595e67;
+  outline: none;
+  color: #595e67;
+  width: 100%;
+  margin: 10px 0;
+  color: #f2f2f2;
+}
+
+[type="submit"].nav__login__input {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  appearance: button;
+}
+
+.nav__login__checklabel {
+  display: block;
+  position: relative;
+  padding-left: 35px; 
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  color: #f2f2f2;
+  margin: 20px 0 20px 20px;
+}
+
+.nav__login__checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.nav__login__checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #111925;
+  border: 1px solid #595e67;
+}
+
+.nav__login__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.nav__login__checklabel .nav__login__checkbox:checked~.nav__login__checkmark:after {
+  display: block;
+}
+
+.nav__login__checklabel .nav__login__checkmark:after {
+  left: 8px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #8518c3;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.nav__login__link {
+  color: #f2f2f2;
+  display: block;
+  line-height: 1.5;
+}
+
+.nav__login__link:hover {
+  color: #595e67;
+}
+
+.nav-i18n {
+  height: 90px;
+}

@@ -1,0 +1,19 @@
+extends layout
+block content
+  nav.nav
+    .nav-i18n
+    form.nav__login
+      h2.title=content.title
+      input.nav__login__input#login(placeholder="email@address")
+      input.nav__login__input#login(placeholder="password", type="password")
+      input(type="submit", value=content.login).nav__login__input
+
+      label.nav__login__checklabel(for="rememberme")=content.rememberme
+        input(type="checkbox", name="rememberme")#rememberme.nav__login__checkbox
+        span.nav__login__checkmark
+      label.nav__login__checklabel(for="staylogged")=content.staylogged
+        input(type="checkbox", name="staylogged")#staylogged.nav__login__checkbox
+        span.nav__login__checkmark
+
+      a.nav__login__link(href="#")=content.createacc
+      a.nav__login__link(href="#")=content.cantlog
