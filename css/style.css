@@ -5,7 +5,7 @@
 body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  background: url(../images/home-bg.png) top right no-repeat fixed #360F53;
+  background: url(../images/home-bg.jpg) center center no-repeat #360F53;
   background-size: cover;
 }
 
