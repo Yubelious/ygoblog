@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed&display=swap');
 @import './reset.css';
 @import './nav.css';
+@import './animate.css';
 @import './icomoon/style.css';
 
 body {
