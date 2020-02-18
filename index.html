@@ -9,13 +9,15 @@
 </head>
 
 <body>
-  <nav class="nav">
+  <main class="nav">
     <form class="nav__login">
       <div class="nav__i18n">
-        <select id="nav__i18n__select" id="i18n">
+        <select class="nav__i18n__select" id="i18n">
           <option value="ENG" selected>ENG</option>
         </select>
+        <span data-lang="ENG" class="nav__i18n__flag"></span>
       </div>
+      <img src="images/dn-logo.png" class="hide-on-tablet-and-up logo" />
       <h2 class="title">Account Login</h2>
       <input class="nav__login__input" id="login" placeholder="email@address" />
       <input class="nav__login__input" id="password" placeholder="password" type="password" />
@@ -30,7 +32,23 @@
       </label><a class="nav__login__link" href="#">Create an account</a><a class="nav__login__link" href="#">Can't
         login?</a>
     </form>
-  </nav>
+
+    <footer class="footer">
+      <h2 class="title">JOIN US ON</h2>
+      <p class="footer__icons">
+        <a class="footer__icon" href="#"><span class="icon-discord"></span></a>
+        <a class="footer__icon" href="#"><span class="icon-facebook2"></span></a>
+        <a class="footer__icon" href="#"><span class="icon-twitter"></span></a>
+      </p>
+      <p class="footer__links">
+        <a class="nav__login__link" href="#">Privacy Policy</a>
+        <a class="nav__login__link" href="#">Terms of Use</a>
+      </p>
+    </footer>
+  </main>
+
+  <img src="images/dn-logo.png" class="hide-on-mobile logo-big" />
+
 </body>
 
 </html>
