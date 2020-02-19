@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?g1v71l');
-  src:  url('fonts/icomoon.eot?g1v71l#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?g1v71l') format('truetype'),
-    url('fonts/icomoon.woff?g1v71l') format('woff'),
-    url('fonts/icomoon.svg?g1v71l#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?8br8b3');
+  src:  url('fonts/icomoon.eot?8br8b3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8br8b3') format('truetype'),
+    url('fonts/icomoon.woff?8br8b3') format('woff'),
+    url('fonts/icomoon.svg?8br8b3#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,12 +25,37 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-discord:before {
-  content: "\e900";
+.icon-user-solid-circle:before {
+  content: "\e902";
+}
+.icon-diamond:before {
+  content: "\e903";
+}
+.icon-home:before {
+  content: "\e901";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-shield:before {
+  content: "\e9b4";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-full:before {
+  content: "\e9d9";
 }
 .icon-facebook2:before {
   content: "\ea91";
 }
 .icon-twitter:before {
   content: "\ea96";
+}
+.icon-discord:before {
+  content: "\e900";
+  color: #7289da;
 }

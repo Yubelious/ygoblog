@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Dueling Nexus</title>
+</head>
+
+<body>
+  <main class="nav">
+    <form class="nav__login">
+      <div class="nav__i18n">
+        <select class="nav__i18n__select" id="i18n">
+          <option value="ENG" selected>ENG</option>
+        </select>
+        <span data-lang="ENG" class="nav__i18n__flag"></span>
+      </div>
+      <img src="images/dn-logo.png" class="hide-on-tablet-and-up animated fadeInDown logo" />
+      <h2 class="title">Account Login</h2>
+      <input class="nav__login__input" id="login" placeholder="email@address" />
+      <input class="nav__login__input" id="password" placeholder="password" type="password" />
+      <input class="nav__login__input" type="submit" value="Login" />
+      <label class="nav__login__checklabel" for="rememberme">Remember me this device
+        <input class="nav__login__checkbox" type="checkbox" name="rememberme" id="rememberme" /><span
+          class="nav__login__checkmark"></span>
+      </label>
+      <label class="nav__login__checklabel" for="staylogged">Stay logged
+        <input class="nav__login__checkbox" type="checkbox" name="staylogged" id="staylogged" /><span
+          class="nav__login__checkmark"></span>
+      </label><a class="nav__login__link" href="#">Create an account</a><a class="nav__login__link" href="#">Can't
+        login?</a>
+    </form>
+
+    <footer class="footer">
+      <h2 class="title">JOIN US ON</h2>
+      <p class="footer__icons">
+        <a class="footer__icon" href="#"><span class="icon-discord"></span></a>
+        <a class="footer__icon" href="#"><span class="icon-facebook2"></span></a>
+        <a class="footer__icon" href="#"><span class="icon-twitter"></span></a>
+      </p>
+      <p class="footer__links">
+        <a class="nav__login__link" href="#">Privacy Policy</a>
+        <a class="nav__login__link" href="#">Terms of Use</a>
+      </p>
+    </footer>
+  </main>
+
+  <img src="images/dn-logo.png" class="hide-on-mobile animated fadeInDown logo-big" />
+
+</body>
+
+</html>
