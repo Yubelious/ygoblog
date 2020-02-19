@@ -9,49 +9,8 @@
 </head>
 
 <body>
-  <nav class="nav">
-    <img src="images/dn-logo.png" class="nav__logo" />
-    <ul class="nav__menu">
-      <li class="nav__item nav__item--selected">
-        <a href="#" class="nav__item__link">Home</a>
-        <span class="nav__item__icon icon-home"></span>
-      </li>
-      <li class="nav__item">
-        <a href="#" class="nav__item__link">Duel Zone</a>
-        <span class="nav__item__icon icon-shield"></span>
-      </li>
-      <li class="nav__item">
-        <a href="#" class="nav__item__link">Deck Editor</a>
-        <span class="nav__item__icon icon-pencil"></span>
-      </li>
-      <li class="nav__item">
-        <a href="#" class="nav__item__link">Profile</a>
-        <span class="nav__item__icon icon-user-solid-circle"></span>
-      </li>
-      <li class="nav__item">
-        <a href="#" class="nav__item__link">Leaderboards</a>
-        <span class="nav__item__icon icon-trophy"></span>
-      </li>
-      <li class="nav__item">
-        <a href="#" class="nav__item__link">Dueling Deluxe+</a>
-        <span class="nav__item__icon icon-diamond"></span>
-      </li>
-    </ul>
-    <footer class="footer">
-      <h2 class="title">JOIN US ON</h2>
-      <p class="footer__icons">
-        <a class="footer__icon" href="#"><span class="icon-discord"></span></a>
-        <a class="footer__icon" href="#"><span class="icon-facebook2"></span></a>
-        <a class="footer__icon" href="#"><span class="icon-twitter"></span></a>
-      </p>
-      <p class="footer__links">
-        <a class="nav__login__link" href="#">Privacy Policy</a>
-        <a class="nav__login__link" href="#">Terms of Use</a>
-      </p>
-    </footer>
-  </nav>
-
-  <main class="news">
+  <nav-component></nav-component>
+  <main class="news container">
     <h2 class="news__title">News & Updates</h2>
     <p class="news__item news__item--bold">Competitive Mode (2019-12-06)</p>
     <p class="news__item">Dueling Nexus has been updated. Ranked mode has been added. Ranked mode is a competitive dueling mode designed to
@@ -82,6 +41,7 @@
     duel the AI start by making a deck in our Deck Editor and then head over to the Duel Zone and click on: Play against
     a basic bot.</p>
   </main>
+  <script type="module" src="js/script.js"></script>
 </body>
 
 </html>

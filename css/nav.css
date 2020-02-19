@@ -31,7 +31,7 @@
   border-radius: 5px;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1024px) {
   .nav {
     width: 400px;
   }
@@ -64,7 +64,7 @@
 .nav__login__checklabel {
   display: block;
   position: relative;
-  padding-left: 35px; 
+  padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 1rem;
@@ -199,7 +199,7 @@
 }
 
 .nav__menu {
-  margin: 20px 40px;
+  margin: 0 40px;
 }
 
 .nav__item {
@@ -237,11 +237,17 @@
   padding: 20px;
   border-radius: 5px;
   color: #fefefe;
+  margin: 0 20px;
   float: right;
-  width: calc(100vw - 520px);
-  margin: 0 60px;
   height: calc(100vh - 120px);
   overflow: auto;
+}
+
+@media (min-width: 1024px) {
+  .news {
+    margin: 0 60px;
+    width: calc(100vw - 520px);
+  }
 }
 
 .news__title {
@@ -267,4 +273,46 @@
   color: #fefefe;
   font-size: 1.255rem;
   line-height: 2;
+}
+
+.nav__trigger__icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 2rem;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+.nav__trigger:checked+.nav__trigger__icon+.nav__home {
+  transform: translate(0, 0);
+  transition: 0.5s ease-out;
+  opacity: 1;
+}
+
+.nav__trigger:checked+.nav__trigger__icon+.nav__home+.container {
+  overflow: hidden;
+}
+
+.nav__home {
+  transform: translate(-100%, 0);
+  box-shadow: 1px 0 0 100vw rgba(0, 0, 0, 0.75);
+  transition: 0.5s ease-out;
+  opacity: 0;
+}
+
+.nav__trigger__icon .icon-cross {
+  font-size: 1.755rem;
+}
+
+@media (min-width: 1024px) {
+  .nav__trigger__icon {
+    display: none;
+  }
+
+  .nav__home {
+    transform: translate(0, 0);
+    opacity: 1;
+    box-shadow: none;
+  }
 }
