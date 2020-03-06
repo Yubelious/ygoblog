@@ -1,0 +1,78 @@
+@-moz-document url("https://victorgodoka.github.io/ygoblog/login.html"), url("https://victorgodoka.github.io/ygoblog/duelzone.html") {
+@media (orientation: landscape) {
+body {
+    font-size: 2vh;
+    line-height: 1;
+}
+h2, h3, .title {/*This is the main header for each of the tabs.*/
+    font-size: 4vh;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: .1vw;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    padding: 0;
+}
+article button {  
+    font-size: 2vh;
+    line-height: 1;
+    text-align: center;
+}
+a, input, label {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    font-family: sans-serif;
+    text-indent: 0.5vw;
+    border-width: .15vw;
+}
+a:not(.footer__icon), input, label {
+    padding: 0
+}
+input, label {
+    height: 2.75vw
+}
+a:focus, a:hover, input:focus, input:hover, label:focus, label:hover {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;}
+}
+a, input, label {
+    font-size: 2vh;
+    opacity: .7;
+    cursor: pointer;
+}
+a:hover, input:hover, label:hover {
+    opacity: 1
+}
+}
+
+@-moz-document url("https://victorgodoka.github.io/ygoblog/login.html") {
+.nav__i18n {
+    height: 5vh
+}
+.nav .title {
+    margin: 2vh 0 4vh 0
+}
+#login.nav__login__input, #password.nav__login__input, .nav__login__submit, .nav__login__checklabel {
+    font-size: 2vh;
+    margin: 0 0 3vh 0;
+}
+.nav__login__input, .nav__login__submit {
+    padding: 0 .5vw
+}
+.nav__login__checkbox {
+    display: none
+}
+}
